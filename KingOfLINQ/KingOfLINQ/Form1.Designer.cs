@@ -29,23 +29,35 @@
         private void InitializeComponent()
         {
             this.btnIntroduction = new System.Windows.Forms.Button();
+            this.btnLinqAndExtensionMethods = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnIntroduction
             // 
-            this.btnIntroduction.Location = new System.Drawing.Point(747, 12);
+            this.btnIntroduction.Location = new System.Drawing.Point(704, 12);
             this.btnIntroduction.Name = "btnIntroduction";
-            this.btnIntroduction.Size = new System.Drawing.Size(125, 55);
+            this.btnIntroduction.Size = new System.Drawing.Size(168, 55);
             this.btnIntroduction.TabIndex = 0;
             this.btnIntroduction.Text = "Introduction";
             this.btnIntroduction.UseVisualStyleBackColor = true;
             this.btnIntroduction.Click += new System.EventHandler(this.btnIntroduction_Click);
+            // 
+            // btnLinqAndExtensionMethods
+            // 
+            this.btnLinqAndExtensionMethods.Location = new System.Drawing.Point(704, 83);
+            this.btnLinqAndExtensionMethods.Name = "btnLinqAndExtensionMethods";
+            this.btnLinqAndExtensionMethods.Size = new System.Drawing.Size(168, 57);
+            this.btnLinqAndExtensionMethods.TabIndex = 1;
+            this.btnLinqAndExtensionMethods.Text = "Linq And Extension Methods";
+            this.btnLinqAndExtensionMethods.UseVisualStyleBackColor = true;
+            this.btnLinqAndExtensionMethods.Click += new System.EventHandler(this.btnLinqAndExtensionMethods_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.btnLinqAndExtensionMethods);
             this.Controls.Add(this.btnIntroduction);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmMain";
@@ -58,5 +70,6 @@
         #endregion
 
         private Button btnIntroduction;
+        private Button btnLinqAndExtensionMethods;
     }
 }
