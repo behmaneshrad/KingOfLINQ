@@ -12,13 +12,13 @@ A small **Windows Forms (.NET 6) playground** for learning LINQ by running it. A
 ## Run
 Requires Windows and the .NET 6 SDK (or newer with the .NET 6 targeting pack).
 ```bash
-cd KingOfLINQ/KingOfLINQ
+cd KingOfLINQ/KingOfLINQ/KingOfLINQ
 dotnet run
 ```
 
 ## Layout
 ```
-KingOfLINQ/KingOfLINQ/
+KingOfLINQ/KingOfLINQ/KingOfLINQ/
   Form1.cs            the exercises (button click handlers)
   Helper/             Pet, PetOwner, comparers, extension methods, Printer
 ```
